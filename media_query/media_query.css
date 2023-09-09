@@ -1,0 +1,84 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Ubuntu:wght@500&display=swap");
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 320px) and (max-width: 480px) {
+   body {
+      background-color: rgba(57, 57, 228, 0.795);
+      font: 15pt normal arial;
+      font-family: "Montserrat", sans-serif;
+      font-family: "Ubuntu", sans-serif;
+   }
+
+   header > h1 {
+      color: white;
+      text-align: center;
+      font-size: 33px;
+   }
+
+   section {
+      width: 80%;
+   }
+   img {
+      width: 100px;
+      height: 100px;
+   }
+}
+
+@media (orientation: landscape) {
+   body {
+      background-color: rgba(57, 57, 228, 0.795);
+      font: 20pt normal arial;
+      font-family: "Montserrat", sans-serif;
+      font-family: "Ubuntu", sans-serif;
+   }
+
+   section {
+      width: 80%; /* Altere a largura desejada */
+      height: 180px; /* Altere a altura desejada */
+   }
+
+   img {
+      width: 200px;
+      height: 200px;
+   }
+}
+
+@media (min-width: 886px) and (max-width: 1980px) {
+   body {
+      background-color: rgba(57, 57, 228, 0.795);
+      font: 15pt normal arial;
+      font-family: "Montserrat", sans-serif;
+      font-family: "Ubuntu", sans-serif;
+   }
+
+   header > h1 {
+      color: white;
+      text-align: center;
+   }
+
+   section {
+      background-color: white;
+      border-radius: 10px;
+      padding: 15px;
+      width: 500px;
+      margin: auto;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+   }
+
+   div {
+      text-align: center;
+      padding: 10px;
+   }
+
+   footer > p {
+      color: white;
+      font-size: 20px;
+      text-align: center;
+      font-style: italic;
+   }
+}
